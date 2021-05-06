@@ -20,7 +20,7 @@
 - 밑에 🗺️**서울 지도** 넣고, 각자 지역에 각자 👧🏻**아이콘** 넣어서 아이콘 클릭하면 개인 페이지 넘어가도록!!
 
 ### 개인 페이지
-[Example Page](README/example_page.png)
+![Example Page](README/example_page.png)
 맛집 탐방 카드 + 슬라이딩 형식 추가하기!!
 
 ## 모각코때 까지 각자 해올것!
