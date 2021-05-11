@@ -23,13 +23,12 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../static/css/hhover.css" />
-    <link rel="stylesheet" href="../static/css/atag.css" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-lemon">
       <div class="container-fluid">
-        <a class="navbar-brand" href="home.html">맛집bbu수기</a>
+        <a class="navbar-brand" href="{% url 'home'%}">맛집bbu수기</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,17 +42,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
             <li class="nav-item">
-              <a class="nav-link" href="mapo.html">마포구</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="songpa.html">송파구</a>
+              <a class="nav-link" href="#">마포구</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="jongro.html">종로구</a>
+              <a class="nav-link" href="{% url 'songpa'%}">송파구</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'jongro'%}">종로구</a>
             </li>
           </ul>
         </div>
@@ -76,13 +74,15 @@
               alt="..."
             />
             <div class="card-body">
-              <a href = "https://www.instagram.com/cafeknotted/" target="_blank">
-                <h3 class="text-center">[잠실-송리단길] 노티드🍩</h3></a>
+              <a href="https://www.instagram.com/cafeknotted/" target="_blank">
+                <h3 class="text-center">[잠실-송리단길] 노티드🍩</h3></a
+              >
               <p class="card-text text-center">
-                레이디스 앤 젠틀맨~ <br/>빵순이는 <strong>노티드</strong>를 모를 수가 없죠?<br />여기는 가지각색의
-                <strong>귀여운 빵</strong>이 즐비한답니다.<br/>
-                한 번 씹으면 잊을 수 없는 보드라운 빵의 맛. <br/>지금 느껴보세요!
-          
+                레이디스 앤 젠틀맨~ <br />빵순이는 <strong>노티드</strong>를
+                모를 수가 없죠?<br />여기는 가지각색의
+                <strong>귀여운 빵</strong>이 즐비한답니다.<br />
+                한 번 씹으면 잊을 수 없는 보드라운 빵의 맛. <br />지금
+                느껴보세요!
               </p>
             </div>
           </div>
@@ -117,8 +117,10 @@
               <h3 class="text-center">[잠실-송리단길] 동경산책</h3>
               <p class="card-text text-center">
                 <strong>일식집</strong> 안 좋아하는 사람 없죠?<br />
-                그럼 당장 송리단길 '동경산책'으로 달려가세요. <br />Right Now.<br />여기는 그냥 가보셔야 알아요. <br/><strong>웨이팅</strong>이 길다는 것. <strong>맛</strong>에 비례한다는 것. <br/>
-
+                그럼 당장 송리단길 '동경산책'으로 달려가세요. <br />Right
+                Now.<br />여기는 그냥 가보셔야 알아요. <br /><strong
+                  >웨이팅</strong
+                >이 길다는 것. <strong>맛</strong>에 비례한다는 것. <br />
               </p>
             </div>
           </div>
@@ -136,10 +138,11 @@
             <div class="card-body">
               <h3 class="text-center">[송리단길] 르빵</h3>
               <p class="card-text text-center">
-                생딸기 1팩 반이 들어가고 JMT이어서 방송되자마자 <strong
-                  >인.기.폭.발</strong
-                ><br/>르빵의 송파점이 송리단길에 있습니당! <br />고오급 재료로 만든
-                <strong>르빵 생딸기 케익</strong><br/> 한입하러 오세요!!!
+                생딸기 1팩 반이 들어가고 JMT이어서 방송되자마자
+                <strong>인.기.폭.발</strong><br />르빵의 송파점이 송리단길에
+                있습니당! <br />고오급 재료로 만든
+                <strong>르빵 생딸기 케익</strong><br />
+                한입하러 오세요!!!
               </p>
             </div>
           </div>
@@ -155,27 +158,26 @@
               <h3 class="text-center">[롯데월드몰] 빌즈</h3>
               <p class="card-text text-center">
                 Little bit 맛있고 고오급진 브런치를 찾는다? <br />여기 빌즈
-                <strong>호주식 브런치</strong> 먹으러 오세요!!<br />호주식 브런치가 뭐야? 하신다면
-                <br /><strong>일.단.잡.숴.봐</strong><br/> 
-                롯데월드몰 구경도 하고 <br /><strong>미.친 팬케이크</strong>도 먹을 수 있는 빌즈로 다들 컴온!!<br />
+                <strong>호주식 브런치</strong> 먹으러 오세요!!<br />호주식
+                브런치가 뭐야? 하신다면 <br /><strong>일.단.잡.숴.봐</strong
+                ><br />
+                롯데월드몰 구경도 하고 <br /><strong>미.친 팬케이크</strong>도
+                먹을 수 있는 빌즈로 다들 컴온!!<br />
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card" style="width: 25rem">
-            <img
-              src="../static/image/젠.png"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="../static/image/젠.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h3 class="text-center">[송리단길] 젠</h3>
               <p class="card-text text-center">
                 정지원 본인이 충격받은 돈까스 맛집.<br />
-                <strong>너무 맛있어서 충격</strong>..<br />일식 돈까스 좋아하시면
-                <br />젠 안 먹어보면 섭섭해요 ㅠㅠ<br />
-                사장님의 친절한 소스설명과 더불어 <strong><br/>둘이 먹다 한 명이 쓰러져도 또 먹지</strong>❗❕
+                <strong>너무 맛있어서 충격</strong>..<br />일식 돈까스
+                좋아하시면 <br />젠 안 먹어보면 섭섭해요 ㅠㅠ<br />
+                사장님의 친절한 소스설명과 더불어
+                <strong><br />둘이 먹다 한 명이 쓰러져도 또 먹지</strong>❗❕
               </p>
             </div>
           </div>
