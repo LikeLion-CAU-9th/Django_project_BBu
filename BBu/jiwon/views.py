@@ -1,8 +1,6 @@
 from django.shortcuts import render
-
+from seonyeong import views
 # Create your views here.
-def home(request):
-    return render(request, 'home.html')
 
 def songpa(request):
     return render(request, 'songpa.html')

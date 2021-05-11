@@ -28,7 +28,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-lemon">
       <div class="container-fluid">
-        <a class="navbar-brand" href="home.html">맛집bbu수기</a>
+        <a class="navbar-brand" href="{% url 'home'%}">맛집bbu수기</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,15 +45,15 @@
           
               
             <li class="nav-item">
-              <a class="nav-link" href="mapo.html">마포구</a>
+              <a class="nav-link" href="#">마포구</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="songpa.html">송파구</a>
+              <a class="nav-link" href="{% url 'songpa'%}">송파구</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="jongro.html">종로구</a>
+              <a class="nav-link" href="{% url 'jongro'%}">종로구</a>
             </li>
             
             </li>
