@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +19,8 @@
     crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="../static/css/hhover.css" />
+  <link rel="stylesheet" href="{% static 'css/hhover.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/bgcolor.css' %}" />
 </head>
 
 <body>
@@ -59,7 +62,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/노티드잠실.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/노티드잠실.png' %}" class="card-img-top" alt="..." />
           <div class="card-body">
             <a href="https://www.instagram.com/cafeknotted/" target="_blank">
               <h3 class="text-center">[잠실-송리단길] 노티드🍩</h3>
@@ -76,7 +79,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/다운타우너.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/다운타우너.png' %}" class="card-img-top" alt="..." />
 
           <div class="card-body">
             <h3 class="text-center">[잠실-송리단길] 다운타우너</h3>
@@ -91,7 +94,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/동경산책.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/동경산책.png' %}" class="card-img-top" alt="..." />
           <div class="card-body">
             <h3 class="text-center">[잠실-송리단길] 동경산책</h3>
             <p class="card-text text-center">
@@ -107,7 +110,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/르빵송파점.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/르빵송파점.png' %}" class="card-img-top" alt="..." />
           <div class="card-body">
             <h3 class="text-center">[송리단길] 르빵</h3>
             <p class="card-text text-center">
@@ -122,7 +125,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/빌즈잠실.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/빌즈잠실.png' %}" class="card-img-top" alt="..." />
           <div class="card-body">
             <h3 class="text-center">[롯데월드몰] 빌즈</h3>
             <p class="card-text text-center">
@@ -137,7 +140,7 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 25rem">
-          <img src="../static/image/젠.png" class="card-img-top" alt="..." />
+          <img src="{% static 'image/젠.png' %}" class="card-img-top" alt="..." />
           <div class="card-body">
             <h3 class="text-center">[송리단길] 젠</h3>
             <p class="card-text text-center">
