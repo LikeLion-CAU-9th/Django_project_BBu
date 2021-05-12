@@ -1,0 +1,63 @@
+.container{
+    position:relative;
+    top:0;
+    bottom:0;
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px
+}
+
+.map {
+    position :relative;
+    top:0;
+    bottom:0;
+    z-index:1;
+}
+.icon {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.jongro {
+    position: absolute;
+    top:270px;
+    left:430px;
+    z-index:2;
+}
+
+.songpa {
+    position: absolute;
+    top:400px;
+    left:610px;
+    z-index:2;
+}
+.mapo {
+    position: absolute;
+    top:310px;
+    left:330px;
+    z-index:2;
+}
+
+.icon:hover {
+    opacity:1;
+    transition: opacity 0.5s;
+}
+/* .mapo:hover ~ .songpa{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+} */
+/* .jongro:hover ~ .icon{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+
+.songpa:hover ~ .mapo{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.songpa:hover ~ .jongro{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+} */
