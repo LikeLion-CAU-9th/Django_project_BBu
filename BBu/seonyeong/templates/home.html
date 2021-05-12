@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" href="{% static 'css/hhover.css' %}" />
   <link rel="stylesheet" href="{% static 'css/bgcolor.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/homedeco.css' %}" />
 </head>
 
 <body>
@@ -52,7 +53,18 @@
       </div>
     </div>
   </nav>
-  <img src="{% static 'image/전체지도.png' %}" style="display: block; margin: 0 auto; width: 1000px; height: 600px" />
+  <div class="container">
+    <div class="mapo icon"> <a href="{% url 'mapo'%}"><img src="{% static 'image/마포.png' %}"
+          style="display: block; margin: 0 auto; width: 80px; height: 80px" /></a></div>
+    <div class="jongro icon"> <a href="{% url 'jongro'%}"><img src="{% static 'image/종로.png' %}"
+          style="display: block; margin: 0 auto; width: 80px; height: 80px" /></a></div>
+    <div class="songpa icon"> <a href="{% url 'songpa'%}"><img src="{% static 'image/송파.png' %}"
+          style="display: block; margin: 0 auto; width: 80px; height: 80px" /></a></div>
+    <div class="map"> <img src="{% static 'image/전체지도.png' %}"
+        style="display: block; margin: 0 auto; width: 1000px; height: 600px" /></div>
+  </div>
+
+
 </body>
 
 </html>
