@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+from seonyeong import views
 # Create your views here.
-def seolhui(request):
-    return render(request, 'seolhui.html')
+
+def mapo(request):
+    return render(request, 'mapo.html')

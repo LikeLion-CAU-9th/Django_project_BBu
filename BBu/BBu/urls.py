@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('seonyeong.urls')),
     path('', include('jiwon.urls') ),
+    path('', include('seolhui.urls')),
 ]

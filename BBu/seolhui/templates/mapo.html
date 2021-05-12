@@ -24,7 +24,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-lemon">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.html">맛집BBu수기</a>
+            <a class="navbar-brand" href="{% url 'home'%}">맛집bbu수기</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,22 +33,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+
                     <li class="nav-item">
-                        <a class="nav-link" href="mapo.html">마포구</a>
+                        <a class="nav-link" href="{% url 'mapo'%}">마포구</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="songpa.html">송파구</a>
+                        <a class="nav-link" href="{% url 'songpa'%}">송파구</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="jongro.html">종로구</a>
+                        <a class="nav-link" href="{% url 'jongro'%}">종로구</a>
+                    </li>
+
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="container">
         <br />
         <div class="row">
